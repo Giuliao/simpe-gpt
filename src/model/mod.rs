@@ -1,3 +1,8 @@
+pub mod feedforward;
+pub mod gpt;
+pub mod mha;
+pub mod transformer;
+
 use burn::{
     nn::{
         conv::{Conv2d, Conv2dConfig},
